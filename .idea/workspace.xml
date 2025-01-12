@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a44e5a-220f-4bc8-8e44-471f69d3f142" name="Changes" comment="task1: find 2 largest">
+    <list default="true" id="d7a44e5a-220f-4bc8-8e44-471f69d3f142" name="Changes" comment="task: palindrome">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/find_largest_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/01/find_largest_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01/ex/ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/01/ex/ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01/ex/ex1_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/01/ex/ex1_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01/ex/ex1_timeit.py" beforeDir="false" afterPath="$PROJECT_DIR$/01/ex/ex1_timeit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +30,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "amavrin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;amavrin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/amavrin/pythonAlgoritmsBook.git",
-    "accountId": "7ed6caba-2b5b-41aa-80d4-7022b42bf583"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/amavrin/pythonAlgoritmsBook.git&quot;,
+    &quot;accountId&quot;: &quot;7ed6caba-2b5b-41aa-80d4-7022b42bf583&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2rUNgmbGFqbawYQ3XVenYiLtxT0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,66 +53,118 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for ex1_test.test_is_palindrome1.executor": "Run",
+    "Python tests.Python tests for ex1_test.test_is_palindrome3.executor": "Run",
+    "Python tests.Python tests for ex1_test.test_is_palindrome4.executor": "Run",
     "Python tests.Python tests for find_largest_test.test_largest.executor": "Run",
+    "Python tests.Python tests in ex1_test.py.executor": "Run",
     "Python tests.Python tests in find_largest_test.py.executor": "Run",
+    "Python.ex1.executor": "Debug",
+    "Python.ex1_timeit.executor": "Run",
     "Python.find_largest_2.executor": "Run",
     "Python.find_largest_test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "find__2__largest",
+    "git-widget-placeholder": "palindrome__speed__test",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Python tests for find_largest_test.test_largest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ex1">
+    <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonAlgoritmsBook" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01/ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01/ex/ex1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex1_timeit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonAlgoritmsBook" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01/ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01/ex/ex1_timeit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for ex1_test.test_is_palindrome1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonAlgoritmsBook" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01/ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;find_largest_test.test_largest&quot;" />
+      <option name="_new_target" value="&quot;ex1_test.test_is_palindrome1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for find_largest_test.test_largest2bymax" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for ex1_test.test_is_palindrome3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonAlgoritmsBook" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01/ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;find_largest_test.test_largest2bymax&quot;" />
+      <option name="_new_target" value="&quot;ex1_test.test_is_palindrome3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for find_largest_test.test_largest2x" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for ex1_test.test_is_palindrome4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonAlgoritmsBook" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01/ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;find_largest_test.test_largest2x&quot;" />
+      <option name="_new_target" value="&quot;ex1_test.test_is_palindrome4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for find_largest_test.test_largest2bymax" />
-        <item itemvalue="Python tests.Python tests for find_largest_test.test_largest2x" />
-        <item itemvalue="Python tests.Python tests for find_largest_test.test_largest" />
+        <item itemvalue="Python.ex1" />
+        <item itemvalue="Python.ex1_timeit" />
+        <item itemvalue="Python tests.Python tests for ex1_test.test_is_palindrome4" />
+        <item itemvalue="Python tests.Python tests for ex1_test.test_is_palindrome1" />
+        <item itemvalue="Python tests.Python tests for ex1_test.test_is_palindrome3" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +208,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736672983488</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="task: palindrome">
+      <option name="closed" value="true" />
+      <created>1736706521120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736706521120</updated>
+    </task>
+    <task id="LOCAL-00005" summary="task: palindrome">
+      <option name="closed" value="true" />
+      <created>1736707977806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736707977806</updated>
+    </task>
+    <task id="LOCAL-00006" summary="task: palindrome">
+      <option name="closed" value="true" />
+      <created>1736708364452</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736708364452</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +254,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task1: find 2 largest" />
-    <option name="LAST_COMMIT_MESSAGE" value="task1: find 2 largest" />
+    <MESSAGE value="task: palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="task: palindrome" />
   </component>
 </project>
