@@ -22,7 +22,19 @@ def is_palindrome3(w):
 def is_palindrome4(w):
     left, right = 0, len(w) - 1
     while left < right:
-        if w[left] != w[right]:
+        left_sym = w[left]
+        if not left_sym.isalnum():
+            left += 1
+            continue
+        right_sym = w[right]
+        if not right_sym.isalnum():
+            right -= 1
+            continue
+
+        left_sym = left_sym.lower()
+        right_sym = right_sym.lower()
+
+        if left_sym != right_sym:
             return False
         left += 1
         right -= 1
