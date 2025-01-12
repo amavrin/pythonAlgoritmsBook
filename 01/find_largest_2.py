@@ -20,7 +20,21 @@ def largest2(arr):
 
 def largest2bymax(arr):
     s_arr = sorted(arr, reverse=True)
-    return s_arr[0:2]
+    return (s_arr[0], s_arr[1])
+
+
+def largest2x(arr):
+    first, second = arr[:2]
+    if second > first:
+        fist, second = second, first
+    for elem in arr[2:]:
+        if elem > first:
+            first, second = elem, first
+            continue
+        if elem > second:
+            second = elem
+    return first, second
+
 
 
 def main():
