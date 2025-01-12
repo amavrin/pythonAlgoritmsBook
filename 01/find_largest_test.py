@@ -1,20 +1,37 @@
-from find_largest_2 import largest, largest2bymax, largest2
+import pytest
+
+from find_largest_2 import largest, largest2bymax, largest2, largest2x
 import random
 
 
-def test_largest():
+REPEAT = 10
+
+
+@pytest.fixture(scope="module")
+def prepare_list() -> list:
     lst = list(range(100))
-    random.shuffle(lst)
-    assert largest(lst) == 99
+    ret = []
+    for i in range(REPEAT):
+        random.shuffle(lst)
+        ret.append(list(lst))
+    return ret
 
 
-def test_largest2():
-    lst = list(range(100))
-    random.shuffle(lst)
-    assert largest2(lst) == (99, 98)
+@pytest.mark.parametrize("i", range(REPEAT))
+def test_largest(prepare_list, i: int):
+    assert largest(prepare_list[i]) == 99
 
 
-def test_largest2bymax():
-    lst = list(range(100))
-    random.shuffle(lst)
-    assert largest2bymax(lst) == [99, 98]
+@pytest.mark.parametrize("i", range(REPEAT))
+def test_largest2(prepare_list, i: int):
+    assert largest2(prepare_list[i]) == (99, 98)
+
+
+@pytest.mark.parametrize("i", range(REPEAT))
+def test_largest2bymax(prepare_list, i: int):
+    assert largest2bymax(prepare_list[i]) == (99, 98)
+
+
+@pytest.mark.parametrize("i", range(REPEAT))
+def test_largest2x(prepare_list, i: int):
+    assert largest2x(prepare_list[i]) == (99, 98)
