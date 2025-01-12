@@ -13,10 +13,14 @@ def is_palindrome2(w):
 def is_palindrome3(w):
     full = len(w)
     half = full//2
-    return w[full:half:-1] == w[:half]
+    if full % 2 == 0:
+        return w[full-1:half-1:-1] == w[:half]
+    else:
+        return w[full-1:half:-1] == w[:half]
 
 
 def main():
+    print(is_palindrome3("abba"))
     print(is_palindrome3("abcba"))
     print(is_palindrome3("abcb"))
 

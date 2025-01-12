@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a44e5a-220f-4bc8-8e44-471f69d3f142" name="Changes" comment="task: palindrome">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/ex/ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/01/ex/ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/ex/ex1_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/01/ex/ex1_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/ex/ex1_timeit.py" beforeDir="false" afterPath="$PROJECT_DIR$/01/ex/ex1_timeit.py" afterDir="false" />
-    </list>
+    <list default="true" id="d7a44e5a-220f-4bc8-8e44-471f69d3f142" name="Changes" comment="task: palindrome" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +62,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for ex1_test.test_is_palindrome1">
+  <component name="RunManager" selected="Python.ex1_timeit">
     <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonAlgoritmsBook" />
       <option name="ENV_FILES" value="" />
@@ -159,10 +154,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for ex1_test.test_is_palindrome1" />
         <item itemvalue="Python.ex1_timeit" />
-        <item itemvalue="Python tests.Python tests for ex1_test.test_is_palindrome3" />
         <item itemvalue="Python.ex1" />
+        <item itemvalue="Python tests.Python tests for ex1_test.test_is_palindrome1" />
+        <item itemvalue="Python tests.Python tests for ex1_test.test_is_palindrome3" />
         <item itemvalue="Python tests.Python tests for find_largest_test.test_largest" />
       </list>
     </recent_temporary>
@@ -215,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736706521120</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task: palindrome">
+      <option name="closed" value="true" />
+      <created>1736707977806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736707977806</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
