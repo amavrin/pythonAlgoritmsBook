@@ -26,7 +26,7 @@ def largest2bymax(arr):
 def largest2x(arr):
     first, second = arr[:2]
     if second > first:
-        fist, second = second, first
+        first, second = second, first
     for elem in arr[2:]:
         if elem > first:
             first, second = elem, first
