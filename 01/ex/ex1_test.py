@@ -27,3 +27,9 @@ def test_is_palindrome3(test_data):
     for data in test_data:
         assert ex1.is_palindrome3(data), f"Expected {data} to be a palindrome"
     assert not ex1.is_palindrome3(NOT_PALINDROME), f"Expected {NOT_PALINDROME} to not be a palindrome"
+
+
+def test_is_palindrome4(test_data):
+    for data in test_data:
+        assert ex1.is_palindrome4(data), f"Expected {data} to be a palindrome"
+    assert not ex1.is_palindrome4(NOT_PALINDROME), f"Expected {NOT_PALINDROME} to not be a palindrome"
