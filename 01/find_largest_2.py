@@ -24,6 +24,10 @@ def largest2bymax(arr):
 
 
 def largest2x(arr):
+    if not arr:
+        return None, None
+    if len(arr) == 1:
+        return arr[0], None
     first, second = arr[:2]
     if second > first:
         first, second = second, first
