@@ -13,16 +13,16 @@ def other_median(a: list):
 
 def run_linear_median(l: list, print_stat: bool = False):
     RecordedItem.clear()
-    res: RecordedItem = linear_median(l)
+    res = linear_median(l)
     if print_stat: print(RecordedItem.report())
-    return res.val
+    return res
 
 
 def run_other_median(l: list, print_stat: bool = False):
     RecordedItem.clear()
-    res: RecordedItem = other_median(l)
+    res = other_median(l)
     if print_stat: (RecordedItem.report())
-    return res.val
+    return res
 
 
 def main():
